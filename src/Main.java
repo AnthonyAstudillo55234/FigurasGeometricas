@@ -52,6 +52,10 @@ public class Main {
         miFigura8.setRadio(8.00);
         System.out.println(miFigura8.getRadio());
 
+        Decagono miFigura9 = new Decagono(6.00, 8.00);
+        System.out.println(miFigura9.calcularArea());
+        System.out.println(miFigura9.calcularPerimetro());
+
         //ESTE ES EL PRIMER CAMBIO
         System.out.println("Comit");
     }
