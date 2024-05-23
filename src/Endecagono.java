@@ -29,10 +29,10 @@ public class Endecagono extends Figurasgeometricas {
     }
 
     public double calcularArea() {
-        return (7 * apotema * lado)/2;
+        return (11 * apotema * lado)/2;
     }
 
     public double calcularPerimetro() {
-        return 7 * lado;
+        return 11 * lado;
     }
 }
